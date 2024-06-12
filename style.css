@@ -1,0 +1,86 @@
+.main-nav li a:hover{
+        color: rgb(206, 77, 238) !important;
+}
+.second-nav li a:hover{
+        color: rgb(206, 77, 238) !important;
+}
+.about-nav li a:hover{
+    color: rgb(206, 77, 238) !important;
+
+}
+.footer-nav li a:hover{
+    color: rgb(206, 77, 238) !important;
+
+}
+.active{
+    color: rgb(206, 77, 238) !important;
+
+}
+.about-header{
+    height: 100vh;
+}
+.hero-section{
+    height: 100vh;
+}
+.intro h1{
+    font-size: 60px;
+}
+.see-work{
+    background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159) 51%, rgb(19, 69, 230) 100%) 0% 0% / 200%;
+
+    transition: all 1s ease;
+    color: white;
+}
+.see-work:hover{
+    background: linear-gradient(to right, rgb(237, 35, 159) 0%, rgb(19, 69, 230) 51%, rgb(237, 35, 159) 100%) 0% 0% / 200%;
+    color: white;
+}
+.background{
+    background: linear-gradient(to right,rgb(19, 69, 230), rgb(237, 35, 159));
+
+}
+.logo-color{
+    background: linear-gradient(to right,rgb(5, 252, 17), rgb(237, 35, 159));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.linear-text-gradient{
+    background: linear-gradient(to right,rgb(19, 69, 230), rgb(237, 35, 159));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.line{
+    background: linear-gradient(to right,rgb(19, 69, 230), rgb(237, 35, 159));
+   width: 70px;
+   height: 2px;
+}
+.cards{
+    background-color: #e4dede;
+}
+.cards:hover{
+    background-color: blue;
+    color: white;
+    transition: all 1s ease-in-out 0s;
+}
+.cards:hover .line{
+    background-color: white;
+}
+.icons a:hover{
+    color:red;
+    transition: all 0.3s ease;
+}
+.footer-icons a:hover{
+    background: linear-gradient(to right,rgb(19, 69, 230), rgb(237, 35, 159));
+    color: white;
+
+}
+.pages{
+ display: none; 
+ position: absolute; 
+ top: 70px; 
+}
+.drop-down:hover .pages{
+    display: block;
+}
